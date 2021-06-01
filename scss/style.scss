@@ -4,6 +4,7 @@
 
 .header {
     background-color: #8B5CF6;
+    padding: 10px 0;
 
     &__wrapper {
         display: grid;
@@ -23,10 +24,12 @@
 
     &__nav {
         padding: 1.5rem;
+        margin: auto 0;
         ul {
             list-style: none;
             display: flex;
             justify-content: flex-start;
+            align-items: center;
             li {
                 margin-right: 20px;
                 a {
@@ -214,3 +217,76 @@
 }
 
 /* Services end */
+
+/* ourContact */
+
+.ourContact {
+    padding: 30px 0;
+    margin-top: 30px;
+    background-color: rgb(139, 92, 246);
+    color: #fff;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__info {
+        width: 50%;
+        p {
+            margin-top: 20px;
+        }
+    }
+
+    &__link {
+        a {
+            display: block;
+            margin: auto;
+            background-color: #fff;
+            color: #8B5CF6;
+            font-weight: 700;
+            text-decoration: none;
+            padding: .875rem;
+            border-radius: 5px;
+            transition: all .5s;
+            padding: 10px 30px;
+            &:hover {
+                background-color: rgb(226, 226, 226);
+            }
+        }
+    }
+}
+
+/* ourContact end */
+
+.why {
+    margin-top: 30px;
+    h2 {
+        text-align: center;
+    }
+
+    &__wrapper {
+        margin-top: 30px;
+        p {
+            line-height: 30px;
+        }
+    }
+}
+
+.footer {
+    padding: 30px 0;
+    background-color: rgb(139, 92, 246);
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+
+        p {
+            width: 50%;
+            text-align: center;
+            margin: 50px 0;
+        }
+    }
+}
