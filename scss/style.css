@@ -24,9 +24,9 @@ body {
 .header__wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: min-content 70% min-content;
-      grid-template-columns: -webkit-min-content 70% -webkit-min-content;
-      grid-template-columns: min-content 70% min-content;
+  -ms-grid-columns: min-content 60% min-content;
+      grid-template-columns: -webkit-min-content 60% -webkit-min-content;
+      grid-template-columns: min-content 60% min-content;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -177,7 +177,7 @@ body {
 /* Header end */
 /* Promo */
 .promo {
-  background: url("../img/promo-bg.png") center center/cover no-repeat;
+  background: url("../img/promo-bg.webP") center center/cover no-repeat;
   padding: 200px;
   color: #fff;
   text-align: center;
@@ -245,9 +245,15 @@ body {
   background-color: #e2e2e2;
 }
 
-@media screen and (max-width: 1283px) {
+@media screen and (max-width: 1692px) {
   .promo__wrapper .links .first, .promo__wrapper .links .second {
     width: 50%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .promo__wrapper .links .first, .promo__wrapper .links .second {
+    width: 70%;
   }
 }
 
@@ -306,6 +312,12 @@ body {
 
 .advantages__item:not(:last-child) {
   border-right: 3px solid rgba(138, 92, 246, 0.315);
+}
+
+@media screen and (max-width: 1600px) {
+  .advantages__item {
+    padding: 20px;
+  }
 }
 
 @media screen and (max-width: 992px) {
