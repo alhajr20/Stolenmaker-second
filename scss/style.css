@@ -555,4 +555,35 @@ body {
     width: 90%;
   }
 }
+
+.middle__phone {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+}
+
+.middle__phone a {
+  background-color: #8B5CF6;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  padding: .875rem;
+  border-radius: 5px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.middle__phone a:hover {
+  background-color: #6841c3;
+}
+
+@media screen and (max-width: 769px) {
+  .middle__phone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 /*# sourceMappingURL=style.css.map */
