@@ -17,7 +17,7 @@ body {
 
 /* Header */
 .header {
-  background-color: #8B5CF6;
+  background-color: #625cf6;
   padding: 10px 0;
 }
 
@@ -88,7 +88,7 @@ body {
 .header__phone a {
   display: block;
   background-color: #fff;
-  color: #8B5CF6;
+  color: #625cf6;
   font-weight: 700;
   text-decoration: none;
   padding: .875rem;
@@ -156,7 +156,7 @@ body {
     padding: 50px;
   }
   .header__nav ul li a {
-    color: #8B5CF6;
+    color: #625cf6;
   }
   .header .nav_active {
     left: 0;
@@ -218,7 +218,7 @@ body {
   transition: all .5s;
   -ms-grid-column-align: center;
       justify-self: center;
-  background-color: #8B5CF6;
+  background-color: #625cf6;
   color: #fff;
 }
 
@@ -230,7 +230,7 @@ body {
   width: 30%;
   display: block;
   background-color: #fff;
-  color: #8B5CF6;
+  color: #625cf6;
   font-weight: 700;
   text-decoration: none;
   padding: .875rem;
@@ -292,9 +292,9 @@ body {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   background-color: #fff;
-  -webkit-box-shadow: 0 0 10px rgba(139, 92, 246, 0.5);
-          box-shadow: 0 0 10px rgba(139, 92, 246, 0.5);
-  border: 1px solid #8B5CF6;
+  -webkit-box-shadow: 0 0 10px #625cf6;
+          box-shadow: 0 0 10px #625cf6;
+  border: 1px solid #625cf6;
 }
 
 .advantages__item {
@@ -311,7 +311,7 @@ body {
 }
 
 .advantages__item:not(:last-child) {
-  border-right: 3px solid rgba(138, 92, 246, 0.315);
+  border-right: 2px solid #625cf6;
 }
 
 @media screen and (max-width: 1600px) {
@@ -336,10 +336,6 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-  }
-  .advantages__item {
-    -webkit-box-shadow: 0 0 10px rgba(139, 92, 246, 0.5);
-            box-shadow: 0 0 10px rgba(139, 92, 246, 0.5);
   }
   .advantages__item:not(:last-child) {
     border-right: none;
@@ -381,7 +377,7 @@ body {
 
 .aboutUs__info {
   padding: 30px;
-  background-color: rgba(138, 92, 246, 0.178);
+  background-color: #615cf665;
 }
 
 .aboutUs__info h2 {
@@ -446,7 +442,7 @@ body {
 .ourContact {
   padding: 30px 0;
   margin-top: 30px;
-  background-color: #8b5cf6;
+  background-color: #625cf6;
   color: #fff;
 }
 
@@ -474,7 +470,7 @@ body {
   display: block;
   margin: auto;
   background-color: #fff;
-  color: #8B5CF6;
+  color: #625cf6;
   font-weight: 700;
   text-decoration: none;
   padding: .875rem;
@@ -527,7 +523,7 @@ body {
 
 .footer {
   padding: 30px 0;
-  background-color: #8b5cf6;
+  background-color: #625cf6;
 }
 
 .footer__wrapper {
