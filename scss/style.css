@@ -546,6 +546,12 @@ body {
   margin: 50px 0;
 }
 
+.footer__wrapper a {
+  color: #fff;
+  display: block;
+  margin-bottom: 30px;
+}
+
 @media screen and (max-width: 769px) {
   .footer__wrapper p {
     width: 90%;
@@ -561,5 +567,13 @@ body {
     display: block;
     margin-bottom: 50px;
   }
+}
+
+main {
+  padding: 100px 0;
+}
+
+main h1 {
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=style.css.map */

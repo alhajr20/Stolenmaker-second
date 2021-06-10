@@ -482,6 +482,12 @@
             text-align: center;
             margin: 50px 0;
         }
+
+        a {
+            color: #fff;
+            display: block;
+            margin-bottom: 30px;
+        }
     }
 }
 
@@ -503,5 +509,13 @@
     .ourContact-first {
         display: block;
         margin-bottom: 50px;
+    }
+}
+
+main {
+    padding: 100px 0;
+
+    h1 {
+        margin-bottom: 30px;
     }
 }
