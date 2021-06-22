@@ -589,18 +589,33 @@ main h1 {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 30px 0;
+  max-width: 500px;
+  height: 300px;
+  overflow-y: scroll;
+  margin: 0 auto;
 }
 
 .branches__wrapper ul {
+  width: 50%;
   list-style: none;
 }
 
-.branches__wrapper ul li:not(:first-child) {
-  margin-top: 15px;
+.branches__wrapper ul li {
+  padding: 15px 20px;
+  border: 1px solid grey;
+  border-bottom: none;
+}
+
+.branches__wrapper ul li:last-child {
+  border-bottom: 1px solid grey;
 }
 
 .branches__wrapper ul li a {
   text-decoration: none;
+}
+
+.branches__wrapper ul:last-child li {
+  border-left: none;
 }
 
 .branches__title {
